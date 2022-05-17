@@ -12,4 +12,12 @@ Alert(
 */
 // alert('working');
 
-console.log(  5 * 5)
+// console.log(  5 * 5);
+
+function changeApperance() {
+    element = document.querySelector('#app-title');
+    // title.style.color = 'blue';
+    // title.style.fontSize = '150px';
+    element.classList.add('title');
+    element.innerText = 'This is a new heading';
+}
