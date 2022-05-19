@@ -21,3 +21,5 @@ function changeApperance() {
     element.classList.add('title');
     element.innerText = 'This is a new heading';
 }
+
+console.log('Vinson');

@@ -1,0 +1,15 @@
+input[type=text], input[type=number] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.tip-container {
+    border: 10px solid black;
+    width: 500px;
+    padding: 40px;
+    margin: auto;
+}

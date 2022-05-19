@@ -1,0 +1,19 @@
+.active-li {
+    color: lime;
+}
+
+body {
+    font-size: 32px;
+}
+
+h2 {
+    color: red;
+}
+
+li {
+    list-style: none;
+}
+
+li:hover {
+    color: lime;
+}
