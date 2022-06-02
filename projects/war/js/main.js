@@ -2,7 +2,7 @@
 // text, suit, and color
 
 const cardText = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'];
-const cardSuit = ['&hearts;', '&spades;', '&clubs;', '&diamonds;'];
+const cardSuit = ['&hearts;', '&spades;', '&clubs;', '&diams;'];
 const cardColor = ['Red', 'Black'];
 
 let p1Card = null;
@@ -19,10 +19,10 @@ cardSuit.forEach(function(suit) {
             suit: suit,
         };
 
-        if (suit === '&hearts;' || suit === '&hearts;') {
-            card.color = 'Red';
+        if (suit === '&hearts;' || suit === '&diams;') {
+            card.color = 'red';
         } else {
-            card.color = 'Black';
+            card.color = 'black';
         }
 
         cards.push(card)
@@ -40,12 +40,13 @@ console.log(cardHolders);
 buttons[0].addEventListener('click', function() {
     console.log('button 0 clicked');
     const randomCardIndex = randomCardNumber();
+    p1Card = cards[randomCardIndex];
     cardHolders[0].innerHTML = `
-    <div class="text">${cards[randomCardIndex].text}</div>
-    <div class="suit">${cards[randomCardIndex].suit}</div>
+    <div class="text ${p1Card.color}">${p1Card.text}</div>
+    <div class="suit ${p1Card.color}">${p1Card.suit}</div>
     
     `;
-    p1Card = cards[randomCardIndex];
+ 
 });
 buttons[1].addEventListener('click', function() {
     console.log('button 1 clicked');

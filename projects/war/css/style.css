@@ -17,6 +17,8 @@ button {
     border: 5px solid grey;
     width: 200px;
     height: 280px;
+    margin: auto;
+    margin-top: 20px;
 }
 
 .points {
@@ -26,11 +28,18 @@ button {
 
 .text {
     font-size: 20px;
+    padding: 10px;
   
 }
 
 .suit {
     font-size: 20px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.red {
+    color: red;
 }
