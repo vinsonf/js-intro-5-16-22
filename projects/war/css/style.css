@@ -1,6 +1,7 @@
 #player-one, #player-two {
     border: 5px solid grey;
     width: 300px;
+    margin: 20px;
 }
 
 button {
