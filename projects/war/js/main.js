@@ -69,3 +69,25 @@ buttons[1].addEventListener('click', function() {
 function randomCardNumber() {
     return Math.floor(Math.random() * cards.length);
 }
+
+
+function randomCard() {
+    return cards[randomCardNumber()];
+}
+
+() => {
+    return cards[randomCardNumber()];
+}
+
+buttons[0].addEventListener('click', () => {
+    randomCard();
+});
+
+
+const getRandomCard = () => {
+    return cards[randomCardNumber()];
+}
+
+function getRandomCard() {
+    return cards[randomCardNumber()];
+}
