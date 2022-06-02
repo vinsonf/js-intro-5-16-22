@@ -84,25 +84,60 @@ switch(greeting) {
         button.innerHTML = 'Order Breakfast';
 }
 
-let num1 = prompt('Enter a number');
-let num2 = prompt('Enter another number');
+// let num1 = prompt('Enter a number');
+// let num2 = prompt('Enter another number');
 
-if (isNaN(Number(num1)) || isNaN(Number(num2))) {
-    alert('hey enter a integer');
-    num1 = prompt('Enter a number');
-    num2 = prompt('Enter another number');
-}
+// if (isNaN(Number(num1)) || isNaN(Number(num2))) {
+//     alert('hey enter a integer');
+//     num1 = prompt('Enter a number');
+//     num2 = prompt('Enter another number');
+// }
 
-alert(parseInt(num1) + parseInt(num2));
+// alert(parseInt(num1) + parseInt(num2));
 
 
 // falsey values
+
+// false
 // 0
 // ''
+
 // null
 // undefined
 // NaN
-// false
+
 
 // truthy values
 // Everything else
+
+// let num = getValidNumber();
+// function getValidNumber() {
+//     let num = prompt('Enter a number');
+//     if (isNaN(Number(num))) {
+//         alert('hey enter an integer');
+//         return getValidNumber();
+//     }
+//     return num;
+// }
+// console.log('thank you for entering a valid number');
+
+// function getNumber() {
+//     switch (num) {
+//         case '1':
+//             console.log('one');
+//             return 1;
+//         case '2':
+//             console.log('two');
+//             break;
+//         case '3':
+//             console.log('three');
+//             break;
+//     }
+
+//     console.log('the end...');
+// }
+
+
+let myName = prompt('What is your name?', '10');
+
+alert(myName.split('').reverse().join(''));
