@@ -45,3 +45,6 @@ function testingScope() {
 
 testingScope();
 
+
+
+console.log(moment().format('MMMM dddd YYYY, h:mma'));   
