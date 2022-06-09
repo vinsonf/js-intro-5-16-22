@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #333;
+    height: 100px;
+    transition: all 0.5s;
+}
+
+.navbar.open{
+    background-color: #333;
+    height: 400px;
+}
+
+.sidebar {
+    background-color: red;
+    height: 100vh;
+    width: 10px;
+    transition: all 0.5s;
+}
+
+.sidebar.open{
+    background-color: red;
+    width: 400px;
+}
